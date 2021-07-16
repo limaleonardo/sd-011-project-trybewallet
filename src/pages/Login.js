@@ -19,7 +19,7 @@ class Login extends React.Component {
     return true;
   }
 
-  handleTextInput() {
+  handleTextInput({ target }) {
     const { value, name } = target;
     this.setState({
       [name]: value,
