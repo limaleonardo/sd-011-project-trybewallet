@@ -85,7 +85,7 @@ class Form extends Component {
         </label>
         <label htmlFor="coin">
           Moeda:
-          <select onChange={ (e) => this.handleChange(e) } id="coin" name="currency">
+          <select onChange={ (e) => this.change(e) } id="coin" name="currency">
             { saveCurrenciesKeys
               .filter((filter) => filter !== 'USDT')
               .map((currencie, index) => <option key={ index }>{ currencie }</option>) }
