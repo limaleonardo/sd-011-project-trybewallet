@@ -1,0 +1,31 @@
+.wallet-page {
+  box-sizing: border-box;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.headerImg {
+  width: 90px;
+}
+
+.walletHeader {
+  align-items: center;
+  border-bottom: 2px solid black;
+  display: flex;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.informations {
+  margin: 0 80px;
+}
+
+.expensesForm {
+  align-items: center;
+  border-bottom: 2px solid black;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  padding: 15px 50px;
+}

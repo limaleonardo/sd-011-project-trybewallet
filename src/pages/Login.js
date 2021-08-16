@@ -1,9 +1,13 @@
 import React from 'react';
+import LoginCard from '../components/LoginCard';
 
-class Login extends React.Component {
+export default class Login extends React.Component {
   render() {
-    return <div>Login</div>;
+    return (
+      <div className="loginContainer">
+        <LoginCard />
+
+      </div>
+    );
   }
 }
-
-export default Login;
